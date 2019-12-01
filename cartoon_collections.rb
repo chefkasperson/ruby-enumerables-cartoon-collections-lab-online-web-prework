@@ -12,8 +12,8 @@ end
 
 def long_planeteer_calls(array)
   array.map {|a| 
-  if a > 4
-    return TRUE}
+  if a.length > 4}
+    return TRUE
   else
     return FALSE
   end
